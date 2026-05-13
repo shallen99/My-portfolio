@@ -9,7 +9,7 @@ function Projects() {
       "A professional website built for KEM Trading, a gold mining company to showcase their operations, services, and company profile. The platform was designed to be clean, responsive, and informative for investors and clients.",
     tech: ["React", "Tailwind CSS", "JavaScript"],
     image: goldProjectImg,
-    live: "https://trading-git-main-shallen99s-projects.vercel.app/",
+    live: "https://trading-ivory-psi.vercel.app/",
     github: "https://github.com/shallen99/trading.git",
   };
 
