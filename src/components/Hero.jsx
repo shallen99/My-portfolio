@@ -56,28 +56,21 @@ function Hero() {
 
         {/* Image */}
         <motion.div
-          className="flex-1 flex justify-center"
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6 }}
-        >
-          <div className="relative w-72 h-72 flex items-center justify-center">
-            
-            {/* Glow Ring
-            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 blur-xl opacity-40"></div> */}
-
-            {/* Image Container */}
-            <div className="w-72 h-96 rounded-2xl overflow-hidden shadow-2xl border-4 border-blue-600 dark:border-blue-400">
-  <img
-    src={profile}
-    alt="Shallen Mwende"
-    className="w-full h-full object-cover object-top"
-  />
-</div>
-
-          </div>
-        </motion.div>
-
+  className="flex-1 flex justify-center"
+  initial={{ opacity: 0, scale: 0.8 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 0.6 }}
+>
+  <div className="relative w-full flex items-center justify-center">
+    <div className="w-72 sm:w-80 md:w-96 h-96 rounded-2xl overflow-hidden shadow-2xl border-4 border-blue-600 dark:border-blue-400">
+      <img
+        src={profile}
+        alt="Shallen Mwende"
+        className="w-full h-full object-cover object-top"
+      />
+    </div>
+  </div>
+</motion.div>
       </div>
     </section>
   );
