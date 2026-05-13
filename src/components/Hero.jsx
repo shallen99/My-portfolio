@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profile from "../assets/me.jpg";
+import profile from "../assets/me2.png";
 
 function Hero() {
   return (
@@ -62,13 +62,21 @@ function Hero() {
   transition={{ duration: 0.6 }}
 >
   <div className="relative w-full flex items-center justify-center">
-    <div className="w-72 sm:w-80 md:w-96 h-96 rounded-2xl overflow-hidden shadow-2xl border-4 border-blue-600 dark:border-blue-400">
-      <img
-        src={profile}
-        alt="Shallen Mwende"
-        className="w-full h-full object-cover object-top"
-      />
-    </div>
+  <div className="relative w-72 sm:w-80 md:w-96 aspect-square">
+  
+  {/* glow */}
+  <div className="absolute inset-0 rounded-full bg-blue-500/20 blur-2xl"></div>
+
+  {/* image */}
+  <div className="relative w-full h-full rounded-full overflow-hidden shadow-2xl border border-gray-200 dark:border-gray-800">
+    <img
+      src={profile}
+      alt="Shallen Mwende"
+      className="w-full h-full object-cover object-center"
+    />
+  </div>
+
+</div>
   </div>
 </motion.div>
       </div>
