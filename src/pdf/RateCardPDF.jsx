@@ -99,7 +99,7 @@ const RateCardPDF = () => (
 
       {/* INTERMEDIATE */}
       <Text style={styles.sectionTitle}>
-        INTERMEDIATE / BUSINESS WEBSITE — KES 40,000 – 120,000
+        INTERMEDIATE / BUSINESS WEBSITE — KES 40,000 – 100,000
       </Text>
 
       <Text style={styles.text}>
@@ -129,7 +129,7 @@ const RateCardPDF = () => (
 
       {/* PROFESSIONAL */}
       <Text style={styles.sectionTitle}>
-        PROFESSIONAL / ADVANCED WEBSITE — KES 120,000 – 350,000+
+        PROFESSIONAL / ADVANCED WEBSITE — KES 100,000 – 350,000+
       </Text>
 
       <Text style={styles.text}>
